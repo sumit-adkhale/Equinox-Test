@@ -7,7 +7,7 @@ import AllRouters from "./Components/AllRouters.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/equinox-test">
       <AllRouters/>
     </BrowserRouter>
   </StrictMode>
